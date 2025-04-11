@@ -31,7 +31,9 @@ interface ResponsiveNavMenuProps {
   navItems: NavItem[];
 }
 
-function ResponsiveNavMenu({ navItems }: ResponsiveNavMenuProps) {
+export default function ResponsiveNavMenu({
+  navItems,
+}: ResponsiveNavMenuProps) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   return (
@@ -134,7 +136,6 @@ function ResponsiveNavMenu({ navItems }: ResponsiveNavMenuProps) {
     </>
   );
 }
-export default ResponsiveNavMenu;
 
 const MobileDropdown = ({
   title,

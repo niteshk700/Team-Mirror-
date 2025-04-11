@@ -38,8 +38,8 @@ function Header() {
       href: "/organisation",
     },
     {
-      label: "FAQ",
-      href: "/faq",
+      label: "FAQs",
+      href: "/faqs",
     },
     {
       label: "About",
